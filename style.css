@@ -1,0 +1,73 @@
+body{
+    background-image: url(about.jpg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover; 
+    
+}
+main{
+    margin: 4%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section{
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+}
+.text-section {
+    position: relative;
+    background-image: url('about.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(13, 13, 13);
+    text-align: center; 
+  }
+  h1{
+    margin-top: -2%;
+    font-style: oblique;
+    color: black;
+    background-color: rgb(245, 205, 131);
+    padding: 1%;
+    border-radius: 2rem;
+    text-decoration: underline;
+  }
+  footer{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  h3{
+    padding: 2%;
+    margin: 0.90%;
+  }
+  .d1{
+    margin: 6%;
+    border: 3px solid rgb(233, 9, 9);
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
+  }
+  h2{
+    text-decoration: double;
+  }
+  button{
+    margin-left: 80rem;
+    padding: 1%;
+    border-radius: 3rem;
+    background-color: rgb(248, 242, 242);
+    color: black;
+  }
+  
